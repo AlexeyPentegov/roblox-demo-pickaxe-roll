@@ -1,0 +1,2 @@
+# StyLua is set to Windows line endings; keep them on every checkout, CI included.
+*.luau text eol=crlf

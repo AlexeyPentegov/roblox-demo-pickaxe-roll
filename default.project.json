@@ -1,0 +1,33 @@
+{
+	"name": "pickaxe-roll",
+	"servePort": 34873,
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$ignoreUnknownInstances": true,
+			"Packages": {
+				"$path": "Packages"
+			},
+			"Shared": {
+				"$path": "src/shared"
+			}
+		},
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"Server": {
+				"$path": "src/server"
+			},
+			"ServerPackages": {
+				"$path": "ServerPackages"
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$ignoreUnknownInstances": true,
+				"Client": {
+					"$path": "src/client"
+				}
+			}
+		}
+	}
+}
